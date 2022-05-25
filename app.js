@@ -33,3 +33,21 @@
 // }
 
 // console.log(getPosts(10, 2, "category", 1, "author", "James"))
+
+
+
+
+//** get post function **/
+// const getPosts = (limit, skip, sortField, sortOrder, filterField, filterValue) => {
+//     let sort = {}
+//     sortField && sortOrder ? sort[sortField] = sortOrder : sort
+
+//     let filter = {}
+//     filterField && filterValue ? filter[filterField] = filterValue : filter
+    
+//     let dbResult = db.posts.find(filter).limit(limit).skip(skip).sort(sort).toArray()
+     
+//     return dbResult
+// }
+
+// console.log(getPosts(10 , "", "", "", "", ""))  
